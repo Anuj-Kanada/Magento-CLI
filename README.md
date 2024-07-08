@@ -1,2 +1,3 @@
+# Important Command For Magento Development
 
-ddev magento s:up </br>
+1. ddev magento s:up </br>
