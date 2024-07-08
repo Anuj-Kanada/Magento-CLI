@@ -4,3 +4,4 @@
 2. ddev mageno cache:flush </br>
 3. ddev magento cache:clean </br>
 4. ddev magento setup:di:compile</br>
+5. ddev magento static:content:deploy
