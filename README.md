@@ -6,6 +6,7 @@
 - ddev magento setup:di:compile
 - ddev magento static:content:deploy
 - ddev magento sampladata:deploy
+- php bin/magento setup:db-declaration:generate-whitelist --module-name=YourModule_Name
 # To enable developer mode and error report :
 - php bin/magento deploy:mode:set developer
 - Go to pub/errors/local.xml.sample => rename this file with : local.xml
