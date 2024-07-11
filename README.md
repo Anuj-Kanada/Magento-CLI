@@ -5,6 +5,7 @@
 - ddev magento cache:clean 
 - ddev magento setup:di:compile
 - ddev magento static:content:deploy
+- ddev magento sampladata:deploy
 # To enable developer mode and error report :
 - php bin/magento deploy:mode:set developer
 - Go to pub/errors/local.xml.sample => rename this file with : local.xml
