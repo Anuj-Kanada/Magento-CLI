@@ -12,4 +12,3 @@
 - php bin/magento deploy:mode:set developer
 - Go to pub/errors/local.xml.sample => rename this file with : local.xml
 - Go to app/bootstrap.php => Line no 14 ini_set('display_errors', 1); Remove # from this line and save file.
-- 
