@@ -1,6 +1,6 @@
 # Important Command For Magento Development
 
-- ddev magento s:up
+- ddev magento setup:upgrade or s:up
 - ddev mageno cache:flush 
 - ddev magento cache:clean 
 - ddev magento setup:di:compile
@@ -8,6 +8,7 @@
 - ddev magento sampladata:deploy
 - php bin/magento setup:db-declaration:generate-whitelist --module-name=YourModule_Name
 - php bin/magento module:enable vendor_module
+- 
 # To enable developer mode and error report :
 - php bin/magento deploy:mode:set developer
 - Go to pub/errors/local.xml.sample => rename this file with : local.xml
