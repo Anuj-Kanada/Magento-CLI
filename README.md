@@ -10,7 +10,7 @@
 - php bin/magento setup:db-declaration:generate-whitelist --module-name=YourModule_Name
 - php bin/magento module:enable vendor_module
 - ddev magento catalog:images:resize-a
-- 
+- ddev magento catalog:images:resize <theme_dir>
 # To enable developer mode and error report :
 - php bin/magento deploy:mode:set developer
 - Go to pub/errors/local.xml.sample => rename this file with : local.xml
