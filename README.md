@@ -7,6 +7,7 @@
 - ddev magento static:content:deploy
 - ddev magento sampladata:deploy
 - ddev magento sampledata:remove
+- ddev magento samplesata:reset
 - php bin/magento setup:db-declaration:generate-whitelist --module-name=YourModule_Name
 - php bin/magento module:enable vendor_module
 - ddev magento catalog:images:resize-a
