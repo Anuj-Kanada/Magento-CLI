@@ -12,6 +12,8 @@
 - php bin/magento module:enable vendor_module
 - ddev magento catalog:images:resize-a
 - ddev magento catalog:images:resize <theme_dir>
+- php bin/magento admin:user:unlock username
+
 # To enable developer mode and error report :
 - php bin/magento deploy:mode:set developer
 - Go to pub/errors/local.xml.sample => rename this file with : local.xml
